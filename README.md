@@ -1,10 +1,10 @@
 # Previsão de vendas para rede de farmácias Rossmann.
 ## 1) Problema de Negócio
-: A Rossmann é uma rede de farmácias de grande porte no mercado e atua em alguns países da Europa. Por mais que haja a centralidade enquanto grupo empresarial, a dispersão de suas várias lojas traz um comportamento específico em relação ao desempenho de vendas. : 
+A Rossmann é uma rede de farmácias de grande porte no mercado e atua em alguns países da Europa. Por mais que haja a centralidade enquanto grupo empresarial, a dispersão de suas várias lojas traz um comportamento específico em relação ao desempenho de vendas. 
    
-:As gerências de cada loja encaminharam para o time de Ciência de Dados a solicitação de estimativa de vendas para as próximas 6 semanas. Ao analisar o pedido feito, o principal stakeholder do projeto foi definido: o CFO da companhia. A demanda é implementar um plano de reforma para as lojas, e para tal se faz necessário determinar o orçamento por loja dessa reforma.:
+As gerências de cada loja encaminharam para o time de Ciência de Dados a solicitação de estimativa de vendas para as próximas 6 semanas. Ao analisar o pedido feito, o principal stakeholder do projeto foi definido: o CFO da companhia. A demanda é implementar um plano de reforma para as lojas, e para tal se faz necessário determinar o orçamento por loja dessa reforma.
   
-:**Objetivo:** disponibilizar a previsão de vendas por loja em tempo real para que o CFO possa tomar as melhores decisões. A partir da análise dos dados, também será desenvolvido um painel gerencial para entendimento dos principais pontos-chave do negócio.:
+**Objetivo:** disponibilizar a previsão de vendas por loja em tempo real para que o CFO possa tomar as melhores decisões. A partir da análise dos dados, também será desenvolvido um painel gerencial para entendimento dos principais pontos-chave do negócio.
 
 ## 2) Premissas de Negócio
 * Diferentes tipos de lojas identificadas com seu próprio id. foi o modelo de negócio assumido.
@@ -16,9 +16,9 @@
 * A solução será entregue diretamente ao CFO da empresa.
 
 ## 3) Estratégia de Solução
-:O projeto foi executado sob a metodologia de gerenciamento cíclico "Cross Industry Standard Process for Data Science" (CRISP-DS). O CRISP-DS consiste em 8 etapas que são revisitadas a cada ciclo completo, até ser definida a solução final. As principais vantagens são: elaborar uma versão end-to-end ao final de cada ciclo; ganhar velocidade na entrega de solução; e conseguir mapear junto a outros times da empresa possíveis melhorias a serem implementadas na próxima iteração.:
+O projeto foi executado sob a metodologia de gerenciamento cíclico "Cross Industry Standard Process for Data Science" (CRISP-DS). O CRISP-DS consiste em 8 etapas que são revisitadas a cada ciclo completo, até ser definida a solução final. As principais vantagens são: elaborar uma versão end-to-end ao final de cada ciclo; ganhar velocidade na entrega de solução; e conseguir mapear junto a outros times da empresa possíveis melhorias a serem implementadas na próxima iteração.
 
-:A partir da análise e exploração dos dados, hipóteses serão mapeadas para entender melhor o funcionamento do negócio, gerar insights valiosos, definir variáveis relevantes e preparações necessárias a serem feitas nos dados. A previsão de vendas será baseada em aprender o comportamento de vendas (variável resposta) por loja, com as variáveis disponíveis, e então generalizá-lo para o futuro (6 semanas). Algoritmos de Machine Learning para regressão serão utilizados para encontrar os valores de previsão. O resultado das previsões serão avaliados por diferentes métricas e apresentado ao responsável para avaliação e definição de possíveis melhorias para o próximo ciclo.:
+A partir da análise e exploração dos dados, hipóteses serão mapeadas para entender melhor o funcionamento do negócio, gerar insights valiosos, definir variáveis relevantes e preparações necessárias a serem feitas nos dados. A previsão de vendas será baseada em aprender o comportamento de vendas (variável resposta) por loja, com as variáveis disponíveis, e então generalizá-lo para o futuro (6 semanas). Algoritmos de Machine Learning para regressão serão utilizados para encontrar os valores de previsão. O resultado das previsões serão avaliados por diferentes métricas e apresentado ao responsável para avaliação e definição de possíveis melhorias para o próximo ciclo.
 
 O resultado final do projeto será entregue em:
 * consulta da previsão de vendas por loja enviada em mensagem via bot no aplicativo de mensagens Telegram.
