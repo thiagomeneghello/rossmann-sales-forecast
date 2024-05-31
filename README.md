@@ -1,6 +1,6 @@
 # Previsão de vendas para rede de farmácias Rossmann.
 ## 1) Problema de Negócio
-:A Rossmann é uma rede de farmácias de grande porte no mercado e atua em alguns países da Europa. Por mais que haja a centralidade enquanto grupo empresarial, a dispersão de suas várias lojas traz um comportamento específico em relação ao desempenho de vendas.: 
+: A Rossmann é uma rede de farmácias de grande porte no mercado e atua em alguns países da Europa. Por mais que haja a centralidade enquanto grupo empresarial, a dispersão de suas várias lojas traz um comportamento específico em relação ao desempenho de vendas. : 
    
 :As gerências de cada loja encaminharam para o time de Ciência de Dados a solicitação de estimativa de vendas para as próximas 6 semanas. Ao analisar o pedido feito, o principal stakeholder do projeto foi definido: o CFO da companhia. A demanda é implementar um plano de reforma para as lojas, e para tal se faz necessário determinar o orçamento por loja dessa reforma.:
   
