@@ -3,4 +3,4 @@
 
 *.ipynb	merge=jupyternotebook
 
-*language=scikitlearn
+*language=Scikit-Learn
