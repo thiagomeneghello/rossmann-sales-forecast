@@ -87,10 +87,12 @@ O resultado final do projeto será entregue em:
 
 ## 5) Produto final do Projeto
 - Bot no Telegram para consulta individual da previsão de vendas por loja.
-
+repositório api: https://github.com/thiagomeneghello/render-app-deploy-rossmann-sales-forecast
+repositório bot: https://github.com/thiagomeneghello/bot-deploy-rossmann-sales-forecast 
+ 
 - Painel Gerencial para consultar a previsão de vendas das lojas e as métricas de dados da rede.
-
-link: xxx
+link: https://tfmeneghello-dashboard-rossmann.streamlit.app/
+repositório: https://github.com/thiagomeneghello/dashboard-rossmann
 
 ## 6) Conclusão
 O objetivo desse projeto é criar a previsão de vendas para as próximas 6 semenas e entregar o acesso remoto e individual para CFO. Também será feito um painel gerencial online para o acompanhamento das métricas e das previsões.
@@ -98,7 +100,8 @@ O objetivo desse projeto é criar a previsão de vendas para as próximas 6 seme
 Quanto maior a quantidade dos dados melhor o aprendizado do modelo.
 
 ## 7) Próximos Passos
+- Testaria novas hipóteses
 - Reduziria o número de variáveis relevantes do modelo.
 - Verificaria a relação entre os dados de treino e de validação.
-- Treinaria o modelo novamente com mais dados.
+- Treinaria o modelo novamente.
 - Para avaliações temporais, definiria um range menor de comparação.
